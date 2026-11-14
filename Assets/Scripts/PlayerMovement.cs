@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("-------------------------------------------------------")]
     [Header("Global Physics State:")]
     private Vector2 previousPosition;
-    private Vector2 currentPosition;
+    private Vector2 currentPosition; 
     private Vector2 currentVelocity;
     private Vector2 totalAcceleration;
     private Vector2 pendingExternalAcceleration;
@@ -264,7 +264,7 @@ public class PlayerMovement : MonoBehaviour
 
 
         //3.) Existing Physics:
-        ApplyBoundingBoxForces();
+        //ApplyBoundingBoxForces();
 
 
         //4.) Update Coyote Timer:
@@ -634,6 +634,8 @@ public class PlayerMovement : MonoBehaviour
     #region Getter Functions
     public Transform GetCameraTarget() => cameraTarget;
     public Transform GetWideZoomCameraTarget() => wideZoomCameraTarget;
+
+    public void SetCurrentPosition(Vector2 newPosition) { currentPosition = newPosition; }
 
     public Vector2 GetTotalAcceleration() => totalAcceleration;
     public Vector2 GetCurrentVelocity() => currentVelocity;

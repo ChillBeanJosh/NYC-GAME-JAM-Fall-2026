@@ -8,7 +8,7 @@ public class TransitionManager : MonoBehaviour
 
     Camera cam;
 
-    [SerializeField] Dictionary<CameraPosition, Vector3> cameraPositions;
+    [SerializeField] CameraPositionList cameraPositions;
 
     CameraPosition currentCameraPosition;
 
@@ -37,15 +37,16 @@ public class TransitionManager : MonoBehaviour
         }
         currentCameraPosition = newCameraPosition;
 
-        if (cameraPositions.ContainsKey(newCameraPosition))
+        if (cameraPositions.Has(newCameraPosition))
         {
-            cam.transform.position = cameraPositions[newCameraPosition];
+            cam.transform.position = cameraPositions.Get(newCameraPosition);
         }
-        playerCharacter.transform.position += addOffset;
+        playerCharacter.SetCurrentPosition(playerCharacter.transform.position + addOffset);
         //Give player invincibility / 
     }
 }
 
+[System.Serializable]
 public enum CameraPosition
 {
     StreetTopLeft,
@@ -54,4 +55,41 @@ public enum CameraPosition
     StreetBottomRight,
     SubwayTop,
     SubwayBottom
+}
+
+[System.Serializable]
+public class CameraPositionList
+{
+    public SavedCameraPosition[] savedPositions;
+
+    public bool Has(CameraPosition cameraPosition)
+    {
+        for (int i = 0; i < savedPositions.Length; i++)
+        {
+            if (savedPositions[i].camPositionType == cameraPosition)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public Vector3 Get(CameraPosition cameraPosition)
+    {
+        for (int i = 0; i < savedPositions.Length; i++)
+        {
+            if (savedPositions[i].camPositionType == cameraPosition)
+            {
+                return savedPositions[i].savedPosition;
+            }
+        }
+        return Vector3.zero;
+    }
+}
+
+[System.Serializable]
+public class SavedCameraPosition
+{
+    public CameraPosition camPositionType;
+    public Vector3 savedPosition;
 }

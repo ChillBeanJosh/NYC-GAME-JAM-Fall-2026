@@ -20,6 +20,7 @@ public class TransitionCollider : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("PlayerHit");
         PlayerMovement movement = collision.GetComponent<PlayerMovement>();
         if (movement)
         {
