@@ -8,11 +8,10 @@ public class PlayerInput : MonoBehaviour
 	[SerializeField] private PlayerMovement _movementLogic;
 	
 	[SerializeField] private float moveAcceleration;
-	[SerializeField] private float 
 	
 	
 	
-	privat void Start()
+	private void Start()
 	{
 		//Initial
 		_inputActions = new Gameplay();
