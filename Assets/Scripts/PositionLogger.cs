@@ -23,14 +23,15 @@ public class PositionLogger : MonoBehaviour
     
     private void Update()
     { 
-        if (levelSegments.Count == 0) return;
-        
         //For Each Level: 
         for (int i =  0; i < levelSegments.Count; i++)
         {
+            Debug.Log("Current Iteration: " + i);
             //Repeat Logger While We Are On The Current Level:
-            while (levelManager.Round == levelSegments[i].level)
+            if (levelManager.Round == levelSegments[i].level)
             {
+                
+                Debug.Log("Printing out Current Log of " + levelSegments[i].level);
                 //Timer Logic:
                 dt += Time.deltaTime; 
                 timeStepTimer += Time.deltaTime;
@@ -38,14 +39,11 @@ public class PositionLogger : MonoBehaviour
                 //Log Data of Current Level When When timeStep Is Reached:
                 if (timeStepTimer >= timeStepDuration)
                 {
+                    Debug.Log("Time step has been achieved... Stamping Data!!!");
                     LogData(dt, levelSegments[i].level);
                     timeStepTimer = 0f;
                 }
             }
-            
-            //Reset Timers When Moving To New Level:
-            dt = 0f;
-            timeStepTimer = 0f;
         }
     }
     
