@@ -2,15 +2,25 @@ using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
+    [Header("Refrences:")]
+    [SerializeField] private Gameplay _inputActions;
+	[SerializeField] private PlayerMovement _movementLogic;
+	
+	[SerializeField] private float moveAcceleration;
+	[SerializeField] private float 
+	
+	
+	
+	privat void Start()
+	{
+		//Initial
+		_inputActions = new Gameplay();
+		_inputActions.Enable();
+		
+		
+	}
+   
+    
+    
 }
