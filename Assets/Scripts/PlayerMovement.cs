@@ -5,8 +5,6 @@ using UnityEngine;
 public struct CharacterInput2D
 {
     public Vector2 Move;
-    public bool ImpulsePressed;
-    public bool SplineRidePressed;
 }
 
 public class PlayerMovement : MonoBehaviour
@@ -54,9 +52,7 @@ public class PlayerMovement : MonoBehaviour
     private float coyoteTimeTimer;
     [Space]
     [SerializeField] private float dashStrength = 15f;
-
-    [Header("-------------------------------------------------------")]
-
+    
     [Header("-------------------------------------------------------")]
     [Header("Collision Parameters:")]
     [SerializeField] private LayerMask collisionLayers = Physics2D.DefaultRaycastLayers;
@@ -660,8 +656,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!showDebugGizmos) return;
 
-        
-
         //INDEPENDENT ACCELERATION VECTORS:
         Gizmos.color = individualAccelerationColor;
         foreach (var acc in _activeAccelerations)
@@ -692,8 +686,7 @@ public class PlayerMovement : MonoBehaviour
             simPosition = nextSimPosition;
         }
 
-
-
+        
         //PLAYER COLLISION CIRCLE:
         Gizmos.color = Color.white;
         Gizmos.DrawWireSphere(currentPosition, collisionRadius);
@@ -705,9 +698,7 @@ public class PlayerMovement : MonoBehaviour
             Gizmos.DrawSphere(collision.point, 0.15f);
             Gizmos.DrawRay(collision.point, collision.normal);
         }
-
-
-
+        
         //2D BOUNDING BOX:
         Gizmos.color = Color.magenta;
         Vector2 boxCenter = (boxMin + boxMax) * 0.5f;

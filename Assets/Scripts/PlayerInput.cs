@@ -28,13 +28,6 @@ public class PlayerInput2D : MonoBehaviour
         //Initialize Input Actions:
         _inputActions = new Gameplay();
         _inputActions.Enable();
-
-        //Initialize Camera and Movement Logic:
-		/*
-        _cameraLogic.Initialize(_movementLogic.GetCameraTarget());
-        _cameraSpringLogic.Initialize();
-        _cameraLeanLogic.Initialize();
-		*/
     }
 
     void OnDestroy()
@@ -70,13 +63,6 @@ public class PlayerInput2D : MonoBehaviour
         var deltaTime = Time.deltaTime;
         var cameraTarget = _movementLogic.GetCameraTarget();
         var wideZoomCameraTarget = _movementLogic.GetWideZoomCameraTarget();
-
-        //Update Camera Logic:
-		/*
-        _cameraLogic.UpdatePosition(cameraTarget);
-        _cameraSpringLogic.UpdateSpring(deltaTime);
-        _cameraLeanLogic.UpdateLean(deltaTime, true, _movementLogic.GetTotalAcceleration());
-		*/
     }
 
     private void FixedUpdate()
