@@ -10,6 +10,8 @@ public class TransitionManager : MonoBehaviour
 
     [SerializeField] Dictionary<CameraPosition, Vector3> cameraPositions;
 
+    CameraPosition currentCameraPosition;
+
     private void Awake()
     {
         instance = this;
@@ -29,6 +31,12 @@ public class TransitionManager : MonoBehaviour
 
     public void SwitchPosition(PlayerMovement playerCharacter, CameraPosition newCameraPosition, Vector3 addOffset)
     {
+        if (newCameraPosition == currentCameraPosition)
+        {
+            return;
+        }
+        currentCameraPosition = newCameraPosition;
+
         if (cameraPositions.ContainsKey(newCameraPosition))
         {
             cam.transform.position = cameraPositions[newCameraPosition];
