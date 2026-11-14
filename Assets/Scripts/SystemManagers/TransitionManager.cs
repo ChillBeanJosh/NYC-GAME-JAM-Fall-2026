@@ -11,6 +11,7 @@ public class TransitionManager : MonoBehaviour
     [SerializeField] CameraPositionList cameraPositions;
 
     CameraPosition currentCameraPosition;
+    public CameraPosition GetCurrentCameraPosition => currentCameraPosition;
 
     private void Awake()
     {

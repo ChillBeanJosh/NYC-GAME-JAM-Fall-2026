@@ -5,6 +5,7 @@ public class GameUI : MonoBehaviour
 {
     [SerializeField] TMP_Text roundCounterText;
     [SerializeField] TMP_Text roundTimerText;
+    [SerializeField] TMP_Text playerLivesText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,6 +26,11 @@ public class GameUI : MonoBehaviour
 
     public void UpdateTimer(float currentTime)
     {
-        roundTimerText.text = "";
+        roundTimerText.text = currentTime.ToString("0.00");
+    }
+
+    public void UpdateLives(int lives)
+    {
+        playerLivesText.text = "Lives " + lives.ToString();
     }
 }
