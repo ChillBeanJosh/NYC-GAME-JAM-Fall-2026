@@ -410,7 +410,6 @@ GameObject:
   - component: {fileID: 885640586}
   - component: {fileID: 885640585}
   - component: {fileID: 885640588}
-  - component: {fileID: 885640589}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -532,25 +531,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!114 &885640589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885640584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e9503853225a4405b0123e72c002b49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 885640585}
-  levelManager: {fileID: 417096485}
-  levelSegments:
-  - level: 0
-    _timeValues: []
-    _positionValues: []
-  timeStepDuration: 0.1
 --- !u!1 &904806636
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,9 +665,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1273999069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1273999071}
+  - component: {fileID: 1273999070}
+  - component: {fileID: 1273999072}
+  m_Layer: 0
+  m_Name: Logger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1273999070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273999069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9503853225a4405b0123e72c002b49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 885640585}
+  levelManager: {fileID: 417096485}
+  ghostPlayer: {fileID: 1273999072}
+  levelSegments:
+  - level: 0
+    _timeValues: []
+    _positionValues: []
+  - level: 1
+    _timeValues: []
+    _positionValues: []
+  - level: 2
+    _timeValues: []
+    _positionValues: []
+  - level: 3
+    _timeValues: []
+    _positionValues: []
+  timeStepDuration: 0.1
+--- !u!4 &1273999071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273999069}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1273999072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273999069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c300c9636aaad84da6c3d4b0f75c890, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ghostSegments: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 885640587}
   - {fileID: 417096486}
+  - {fileID: 1273999071}
