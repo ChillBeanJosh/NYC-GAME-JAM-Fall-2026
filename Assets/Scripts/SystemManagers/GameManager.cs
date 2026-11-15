@@ -12,8 +12,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameUI ui;
     [SerializeField] PlayerMovement player;
 
-    bool isGameActive; bool IsGameActive => isGameActive;
-    bool isRoundActive; bool IsRoundActive => isRoundActive;
+    bool isGameActive; public bool IsGameActive => isGameActive;
+    bool isRoundActive; public bool IsRoundActive => isRoundActive;
 
     int round; public int Round => round;
     float roundTimer; public float RoundTimer => roundTimer;
@@ -63,6 +63,7 @@ public class GameManager : MonoBehaviour
                 inbetweenRoundTimer -= Time.deltaTime;
                 if (inbetweenRoundTimer <= 0)
                 {
+                    round++;
                     RoundStart();
                 }
             }
@@ -76,6 +77,7 @@ public class GameManager : MonoBehaviour
         round = 0;
 
         ui.UpdateRound(round + 1);
+        RoundStart();
         
         GameStartEvent.Invoke();
     }
@@ -92,6 +94,7 @@ public class GameManager : MonoBehaviour
         isRoundActive = true;
         roundTimer = roundDuration;
         ui.UpdateTimer(roundTimer);
+        ui.UpdateRound(round + 1);
 
         targetPosition = CameraPosition.StreetTopRight;
 
