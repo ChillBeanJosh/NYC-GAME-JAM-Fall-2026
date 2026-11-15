@@ -445,7 +445,7 @@ MonoBehaviour:
   dashStrength: 15
   collisionLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   maxBounces: 5
   skinWidth: 0.015
   maxSlopeAngle: 45
@@ -676,6 +676,7 @@ GameObject:
   - component: {fileID: 1273999071}
   - component: {fileID: 1273999070}
   - component: {fileID: 1273999072}
+  - component: {fileID: 1273999073}
   m_Layer: 0
   m_Name: Logger
   m_TagString: Untagged
@@ -712,6 +713,7 @@ MonoBehaviour:
     _timeValues: []
     _positionValues: []
   timeStepDuration: 0.1
+  testRound: 0
 --- !u!4 &1273999071
 Transform:
   m_ObjectHideFlags: 0
@@ -740,6 +742,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ghostSegments: []
+--- !u!114 &1273999073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273999069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb5ab13e781aefc42a18ccb5cf39b60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 417096485}
+  ghostPlayer: {fileID: 1273999072}
+  ghostPrefab: {fileID: 7176512830945680314, guid: 115aa1547a6917e4f968ef2a33b7c2ee, type: 3}
+  logger: {fileID: 1273999070}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
