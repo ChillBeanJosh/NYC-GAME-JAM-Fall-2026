@@ -10,7 +10,7 @@ public class TransitionManager : MonoBehaviour
 
     [SerializeField] CameraPositionList cameraPositions;
 
-    CameraPosition currentCameraPosition;
+    CameraPosition currentCameraPosition; 
     public CameraPosition GetCurrentCameraPosition => currentCameraPosition;
 
     private void Awake()
@@ -50,12 +50,13 @@ public class TransitionManager : MonoBehaviour
 [System.Serializable]
 public enum CameraPosition
 {
-    StreetTopLeft,
-    StreetTopRight,
-    StreetBottomLeft,
-    StreetBottomRight,
-    SubwayTop,
-    SubwayBottom
+    StartStreet,
+    StartTurnstile,
+    StartSubway,
+    SubwayCar,
+    EndSubway,
+    EndTurnstile,
+    EndStreet
 }
 
 [System.Serializable]

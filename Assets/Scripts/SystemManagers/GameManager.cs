@@ -96,7 +96,7 @@ public class GameManager : MonoBehaviour
         ui.UpdateTimer(roundTimer);
         ui.UpdateRound(round + 1);
 
-        targetPosition = CameraPosition.StreetTopRight;
+        //targetPosition = CameraPosition.StreetTopRight;
 
         RoundStartEvent.Invoke();
     }
@@ -123,5 +123,10 @@ public class GameManager : MonoBehaviour
         {
             GameEnd();
         }
+    }
+
+    private void OnDrawGizmos()
+    {
+        
     }
 }

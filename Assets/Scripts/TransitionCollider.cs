@@ -27,4 +27,10 @@ public class TransitionCollider : MonoBehaviour
             TransitionManager.Instance.SwitchPosition(movement, nextCameraPosition, nextPlayerOffset);
         }
     }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawRay(transform.position, nextPlayerOffset);
+    }
 }

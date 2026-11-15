@@ -12,8 +12,8 @@ public class TrainManager : MonoBehaviour
 
     [SerializeField] GameObject[] doorObjects;
 
-    const CameraPosition entrancePosition = CameraPosition.SubwayTop;
-    const CameraPosition exitPosition = CameraPosition.SubwayTop;
+    const CameraPosition entrancePosition = CameraPosition.StartSubway;
+    const CameraPosition exitPosition = CameraPosition.EndSubway;
 
     float doorOpenCloseTimer;
 

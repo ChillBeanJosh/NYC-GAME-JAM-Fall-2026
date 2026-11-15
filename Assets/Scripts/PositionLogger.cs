@@ -27,8 +27,8 @@ public class PositionLogger : MonoBehaviour
 
     private void Update()
     {
-        //int currentRound = levelManager.Round;
-        int currentRound = testRound;
+        int currentRound = levelManager.Round;
+        //int currentRound = testRound;
 
         //Update previous as current, to ensure dt clear on next level:
         if (currentRound != previousRound)
