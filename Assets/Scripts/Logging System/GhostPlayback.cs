@@ -12,6 +12,7 @@ public class GhostPlayback : MonoBehaviour
     {
         public GhostData data;
         public Transform ghostTransform;
+        public PlayerAnimator ghostAnimator;
 
         public int sampleIndex;
         public int sampleSize;
@@ -75,6 +76,7 @@ public class GhostPlayback : MonoBehaviour
             ActiveGhost activeGhost = new ActiveGhost();
             activeGhost.data = data;
             activeGhost.ghostTransform = newGhost.transform;
+            activeGhost.ghostAnimator = newGhost.GetComponentInChildren<PlayerAnimator>();
             activeGhost.sampleIndex = 0;
             activeGhost.sampleSize = size;
             activeGhost.elapsedPlaybackTime = 0f;
@@ -90,7 +92,10 @@ public class GhostPlayback : MonoBehaviour
         ghost.elapsedPlaybackTime += Time.fixedDeltaTime;
 
         Vector2 targetPosition = GetInterpolatedPosition(ghost);
+        Vector2 movementDirection = (targetPosition - (Vector2)ghost.ghostTransform.position).normalized;
+
         ghost.ghostTransform.position = targetPosition;
+        ghost.ghostAnimator.UpdateAnimation(movementDirection);
     }
 
     private Vector2 GetInterpolatedPosition(ActiveGhost ghost)
