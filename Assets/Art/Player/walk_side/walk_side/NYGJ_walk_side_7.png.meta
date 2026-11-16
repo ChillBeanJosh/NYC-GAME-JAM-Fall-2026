@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: b3510c2486680894ba5d4283d3c85809
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2002738921877023532
+    second: NYGJ_walk_side_7_0
+  - first:
+      213: 7451483676772671456
+    second: NYGJ_walk_side_7_1
+  - first:
+      213: -3954647842192189454
+    second: NYGJ_walk_side_7_2
+  - first:
+      213: -2078415158787700305
+    second: NYGJ_walk_side_7_3
+  - first:
+      213: 6365156144078102310
+    second: NYGJ_walk_side_7_4
+  - first:
+      213: 6414958201085221661
+    second: NYGJ_walk_side_7_5
+  - first:
+      213: -2823898951812609153
+    second: NYGJ_walk_side_7_6
+  - first:
+      213: 4188950690104865793
+    second: NYGJ_walk_side_7_7
+  - first:
+      213: 5097735485279197075
+    second: NYGJ_walk_side_7_8
+  - first:
+      213: -2164800523059217288
+    second: NYGJ_walk_side_7_9
+  - first:
+      213: 1007930646957159082
+    second: NYGJ_walk_side_7_10
+  - first:
+      213: 8287741445494147262
+    second: NYGJ_walk_side_7_11
+  - first:
+      213: 5212147118962733214
+    second: NYGJ_walk_side_7_12
+  - first:
+      213: -8934572341183436049
+    second: NYGJ_walk_side_7_13
+  - first:
+      213: -1543481982479734492
+    second: NYGJ_walk_side_7_14
+  - first:
+      213: 3530986361925116500
+    second: NYGJ_walk_side_7_15
+  - first:
+      213: -6797579252344202533
+    second: NYGJ_walk_side_7_16
+  - first:
+      213: -9101715919554019458
+    second: NYGJ_walk_side_7_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 54
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b245040782bcb10800000000000000
+      internalID: 2002738921877023532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef18a3acecf86760800000000000000
+      internalID: 7451483676772671456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 14
+        width: 152
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f79e5a7db44e19c0800000000000000
+      internalID: -3954647842192189454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 45
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa90caccc6cf723e0800000000000000
+      internalID: -2078415158787700305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_4
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 50
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f9babf9c3955850800000000000000
+      internalID: 6365156144078102310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 37
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bd9a8fe72860950800000000000000
+      internalID: 6414958201085221661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 31
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b8c9f6dde7fc8d0800000000000000
+      internalID: -2823898951812609153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 27
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104f3596574222a30800000000000000
+      internalID: 4188950690104865793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39758f63a6bceb640800000000000000
+      internalID: 5097735485279197075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 21
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87cb975d46515f1e0800000000000000
+      internalID: -2164800523059217288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_10
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 21
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa27c1a4593ecfd00800000000000000
+      internalID: 1007930646957159082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 21
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb806f03fe8f30370800000000000000
+      internalID: 8287741445494147262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 20
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9079d68034455840800000000000000
+      internalID: 5212147118962733214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_13
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 21
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea2bb70bc5020480800000000000000
+      internalID: -8934572341183436049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 20
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429641d8053749ae0800000000000000
+      internalID: -1543481982479734492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_15
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 16
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452ab416365900130800000000000000
+      internalID: 3530986361925116500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_16
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 17
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda55736fa52aa1a0800000000000000
+      internalID: -6797579252344202533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_walk_side_7_17
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 20
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ff678189530b180800000000000000
+      internalID: -9101715919554019458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NYGJ_walk_side_7_0: 2002738921877023532
+      NYGJ_walk_side_7_1: 7451483676772671456
+      NYGJ_walk_side_7_10: 1007930646957159082
+      NYGJ_walk_side_7_11: 8287741445494147262
+      NYGJ_walk_side_7_12: 5212147118962733214
+      NYGJ_walk_side_7_13: -8934572341183436049
+      NYGJ_walk_side_7_14: -1543481982479734492
+      NYGJ_walk_side_7_15: 3530986361925116500
+      NYGJ_walk_side_7_16: -6797579252344202533
+      NYGJ_walk_side_7_17: -9101715919554019458
+      NYGJ_walk_side_7_2: -3954647842192189454
+      NYGJ_walk_side_7_3: -2078415158787700305
+      NYGJ_walk_side_7_4: 6365156144078102310
+      NYGJ_walk_side_7_5: 6414958201085221661
+      NYGJ_walk_side_7_6: -2823898951812609153
+      NYGJ_walk_side_7_7: 4188950690104865793
+      NYGJ_walk_side_7_8: 5097735485279197075
+      NYGJ_walk_side_7_9: -2164800523059217288
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

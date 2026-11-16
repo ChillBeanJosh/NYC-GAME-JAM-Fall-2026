@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: ad769ca2c7bc1f04fad846aa8bce980b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1345056787966008419
+    second: NYGJ_exterior1_over_0
+  - first:
+      213: 8533582515406054850
+    second: NYGJ_exterior1_over_1
+  - first:
+      213: 5141672098032994222
+    second: NYGJ_exterior1_over_2
+  - first:
+      213: -5072335560871029848
+    second: NYGJ_exterior1_over_3
+  - first:
+      213: -4747907122728061553
+    second: NYGJ_exterior1_over_4
+  - first:
+      213: 3636026843935003386
+    second: NYGJ_exterior1_over_5
+  - first:
+      213: -7010169978840012029
+    second: NYGJ_exterior1_over_6
+  - first:
+      213: -7566869769522670455
+    second: NYGJ_exterior1_over_7
+  - first:
+      213: 6634774670314976618
+    second: NYGJ_exterior1_over_8
+  - first:
+      213: -7654498045454384755
+    second: NYGJ_exterior1_over_9
+  - first:
+      213: 7464687503793516487
+    second: NYGJ_exterior1_over_10
+  - first:
+      213: -9058929762631995587
+    second: NYGJ_exterior1_over_11
+  - first:
+      213: -4498132630393999681
+    second: NYGJ_exterior1_over_12
+  - first:
+      213: -2055539359676359888
+    second: NYGJ_exterior1_over_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 553
+        width: 348
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c1171b50a9aa210800000000000000
+      internalID: 1345056787966008419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_1
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 750
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5234cb5106d6670800000000000000
+      internalID: 8533582515406054850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 557
+        width: 219
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea74bca0883ea5740800000000000000
+      internalID: 5141672098032994222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_3
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 750
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a353b88ea17b99b0800000000000000
+      internalID: -5072335560871029848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_4
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 553
+        width: 348
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f853f3b90ab0c1eb0800000000000000
+      internalID: -4747907122728061553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 595
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2d78a6623c57230800000000000000
+      internalID: 3636026843935003386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_6
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 595
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b2224bb8fd6be90800000000000000
+      internalID: -7010169978840012029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 122
+        width: 348
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98495fd19041df690800000000000000
+      internalID: -7566869769522670455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_8
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 319
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6532ecf864731c50800000000000000
+      internalID: 6634774670314976618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_9
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 131
+        width: 219
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8105ca3592c5c590800000000000000
+      internalID: -7654498045454384755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_10
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 319
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfe8ee2cb5e79760800000000000000
+      internalID: 7464687503793516487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_11
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 122
+        width: 348
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f2b1d8067384280800000000000000
+      internalID: -9058929762631995587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 164
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbea5cc643c6391c0800000000000000
+      internalID: -4498132630393999681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NYGJ_exterior1_over_13
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 164
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b18a4d7d14973e0800000000000000
+      internalID: -2055539359676359888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NYGJ_exterior1_over_0: 1345056787966008419
+      NYGJ_exterior1_over_1: 8533582515406054850
+      NYGJ_exterior1_over_10: 7464687503793516487
+      NYGJ_exterior1_over_11: -9058929762631995587
+      NYGJ_exterior1_over_12: -4498132630393999681
+      NYGJ_exterior1_over_13: -2055539359676359888
+      NYGJ_exterior1_over_2: 5141672098032994222
+      NYGJ_exterior1_over_3: -5072335560871029848
+      NYGJ_exterior1_over_4: -4747907122728061553
+      NYGJ_exterior1_over_5: 3636026843935003386
+      NYGJ_exterior1_over_6: -7010169978840012029
+      NYGJ_exterior1_over_7: -7566869769522670455
+      NYGJ_exterior1_over_8: 6634774670314976618
+      NYGJ_exterior1_over_9: -7654498045454384755
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
