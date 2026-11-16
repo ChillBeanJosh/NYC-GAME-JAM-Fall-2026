@@ -55,6 +55,8 @@ public class PlayerInput2D : MonoBehaviour
         //Update Movement Logic:
         _movementLogic.UpdateInput(characterInput);
         _movementLogic.UpdateBody(deltaTime);
+
+        _animator.UpdateAnimation(characterInput.Move);
     }
 
     private void LateUpdate()

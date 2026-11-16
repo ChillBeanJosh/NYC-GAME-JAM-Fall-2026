@@ -4131,7 +4131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movementLogic: {fileID: 1363783316}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1702685213}
   moveAcceleration: 100
   CameraSpeedThreshold: 550
   targetedFocusPosition: {x: 0, y: 0, z: 0}
