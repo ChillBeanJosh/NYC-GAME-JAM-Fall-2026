@@ -7,6 +7,7 @@ public class PlayerInput2D : MonoBehaviour
     [Space]
     [SerializeField] private PlayerMovement _movementLogic;
     [Space]
+    [SerializeField] private PlayerAnimator _animator;
     //[SerializeField] private PlayerCamera2D _cameraLogic;
     //[SerializeField] private CameraSpring2D _cameraSpringLogic;
     //[SerializeField] private CameraLean2D _cameraLeanLogic;
@@ -17,7 +18,6 @@ public class PlayerInput2D : MonoBehaviour
     [SerializeField] private float moveAcceleration = 50.0f;
     [Space]
     [SerializeField] private float CameraSpeedThreshold = 550f;
-
 
     [Header("Fixed Camera Position: ")]
     [SerializeField] private Vector3 targetedFocusPosition;

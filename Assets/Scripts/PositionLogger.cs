@@ -24,16 +24,20 @@ public class PositionLogger : MonoBehaviour
 
     public int testRound = 0;
 
+    private void Start()
+    {
+        GameManager.Instance.RoundStartEvent.AddListener(NewRound);
+    }
 
     private void Update()
     {
-        int currentRound = levelManager.Round % levelSegments.Count;
-        //int currentRound = testRound % levelSegments.Count;
+        //int currentRound = levelManager.Round % levelSegments.Count;
+        int currentRound = testRound;
 
         //Update previous as current, to ensure dt clear on next level:
         if (currentRound != previousRound)
         {
-            dt = 0f;
+            //dt = 0f;
             timeStepTimer = 0f;
             previousRound = currentRound;
         }
@@ -45,7 +49,7 @@ public class PositionLogger : MonoBehaviour
             if (currentRound == levelSegments[i].level)
             {
                 //Timer Logic:
-                dt += Time.deltaTime;
+                dt = 30f-GameManager.Instance.RoundTimer;
                 timeStepTimer += Time.deltaTime;
 
                 //Log Data of Current Level When When timeStep Is Reached:
@@ -65,6 +69,11 @@ public class PositionLogger : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void NewRound()
+    {
+        dt = 0;
     }
 
     private void LogData(float deltaTime, int i)

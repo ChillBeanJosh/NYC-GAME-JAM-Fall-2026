@@ -6,6 +6,8 @@ public class TransitionManager : MonoBehaviour
     static TransitionManager instance;
     public static TransitionManager Instance => instance;
 
+    public PositionLogger logger;
+
     Camera cam;
 
     [SerializeField] CameraPositionList cameraPositions;
@@ -43,6 +45,8 @@ public class TransitionManager : MonoBehaviour
             cam.transform.position = cameraPositions.Get(newCameraPosition);
         }
         playerCharacter.SetCurrentPosition(playerCharacter.transform.position + addOffset);
+        logger.testRound = (int)newCameraPosition;
+
         //Give player invincibility / 
     }
 }
@@ -50,13 +54,13 @@ public class TransitionManager : MonoBehaviour
 [System.Serializable]
 public enum CameraPosition
 {
-    StartStreet,
-    StartTurnstile,
-    StartSubway,
-    SubwayCar,
-    EndSubway,
-    EndTurnstile,
-    EndStreet
+    StartStreet = 0,
+    StartTurnstile = 1,
+    StartSubway = 2,
+    SubwayCar = 3,
+    EndSubway = 4,
+    EndTurnstile = 5,
+    EndStreet = 6
 }
 
 [System.Serializable]

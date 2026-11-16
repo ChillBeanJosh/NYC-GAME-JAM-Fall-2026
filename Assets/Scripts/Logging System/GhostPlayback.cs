@@ -25,8 +25,8 @@ public class GhostPlayback : MonoBehaviour
 
     private void LateUpdate()
     {
-        int currentRound = levelManager.Round % logger.levelSegments.Count;
-        //int currentRound = logger.testRound % logger.levelSegments.Count;
+        //int currentRound = levelManager.Round % logger.levelSegments.Count;
+        int currentRound = logger.testRound % logger.levelSegments.Count;
 
         //Update previous as current, clear old and spawn new ghosts as a result:
         if (currentRound != previousRound)
