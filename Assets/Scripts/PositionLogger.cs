@@ -1,5 +1,6 @@
-using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
 [System.Serializable]
 public struct levelDataLog
@@ -23,6 +24,8 @@ public class PositionLogger : MonoBehaviour
     private int previousRound = -1;
 
     public int testRound = 0;
+    private bool isTestingRoundTransition = false;
+
 
     private void Start()
     {
@@ -49,7 +52,7 @@ public class PositionLogger : MonoBehaviour
             if (currentRound == levelSegments[i].level)
             {
                 //Timer Logic:
-                dt = 30f-GameManager.Instance.RoundTimer;
+                dt += Time.deltaTime;
                 timeStepTimer += Time.deltaTime;
 
                 //Log Data of Current Level When When timeStep Is Reached:
@@ -90,5 +93,30 @@ public class PositionLogger : MonoBehaviour
         //Clear the levels logger data to log for next round instance:
         levelSegments[i]._timeValues.Clear();
         levelSegments[i]._positionValues.Clear();
+    }
+
+    public void CompleteTestRound()
+    {
+        if (!isTestingRoundTransition)
+        {
+            StartCoroutine(TestRoundTransition());
+        }
+    }
+
+    private IEnumerator TestRoundTransition()
+    {
+        isTestingRoundTransition = true;
+
+        //Increment testRound to force data transfer:
+        testRound++;
+
+        //Wait until the current frame finishes:
+        yield return new WaitForEndOfFrame();
+
+        //Return to Level 0 to trigger ghost playback:
+        testRound--;
+
+        dt = 0f;
+        isTestingRoundTransition = false;
     }
 }

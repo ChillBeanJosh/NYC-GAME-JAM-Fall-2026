@@ -21,12 +21,13 @@ public class GhostPlayback : MonoBehaviour
     private List<ActiveGhost> activeGhosts = new List<ActiveGhost>();
 
 
+    [SerializeField] private bool destroyGhostAtEnd = false;
     public PositionLogger logger;
 
     private void LateUpdate()
     {
         //int currentRound = levelManager.Round % logger.levelSegments.Count;
-        int currentRound = logger.testRound % logger.levelSegments.Count;
+        int currentRound = logger.testRound;
 
         //Update previous as current, clear old and spawn new ghosts as a result:
         if (currentRound != previousRound)
@@ -40,9 +41,17 @@ public class GhostPlayback : MonoBehaviour
 
     private void FixedUpdate()
     {
-        foreach (ActiveGhost ghost in activeGhosts)
+        for (int i = activeGhosts.Count - 1; i >= 0; i--)
         {
+            ActiveGhost ghost = activeGhosts[i];
             UpdateGhost(ghost);
+
+            //Destory early at final Position:
+            if (destroyGhostAtEnd && ghost.elapsedPlaybackTime >= ghost.data.timeValues[ghost.sampleSize - 1])
+            {
+                Destroy(ghost.ghostTransform.gameObject);
+                activeGhosts.RemoveAt(i);
+            }
         }
         Physics2D.SyncTransforms();
     }

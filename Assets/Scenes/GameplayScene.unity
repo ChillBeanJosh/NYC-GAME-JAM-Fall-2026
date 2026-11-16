@@ -157,7 +157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6304739112801327330, guid: 11d0253ea99b03d4986c5237821eaf3a, type: 3}
       propertyPath: nextPlayerOffset.y
-      value: -4.5
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 7763982598394221029, guid: 11d0253ea99b03d4986c5237821eaf3a, type: 3}
       propertyPath: m_LocalScale.x
@@ -1206,7 +1206,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.017518997, y: -1.1802547}
+  m_Offset: {x: -0.017518997, y: -1.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1725,7 +1725,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6304739112801327330, guid: 11d0253ea99b03d4986c5237821eaf3a, type: 3}
       propertyPath: nextPlayerOffset.y
-      value: -4.5
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 7763982598394221029, guid: 11d0253ea99b03d4986c5237821eaf3a, type: 3}
       propertyPath: m_LocalScale.x
@@ -3316,11 +3316,11 @@ PrefabInstance:
       objectReference: {fileID: 1363783316}
     - target: {fileID: 1193807680984099792, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
       propertyPath: levelSegments.Array.size
-      value: 7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1193807680984099792, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
       propertyPath: levelSegments.Array.data[1].level
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1193807680984099792, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
       propertyPath: levelSegments.Array.data[2].level
@@ -4052,7 +4052,7 @@ GameObject:
   - component: {fileID: 1363783319}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4419,7 +4419,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2686027410429060928, guid: 11d0253ea99b03d4986c5237821eaf3a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1836567670}
   m_SourcePrefab: {fileID: 100100000, guid: 11d0253ea99b03d4986c5237821eaf3a, type: 3}
 --- !u!1001 &1670618049
 PrefabInstance:
@@ -5855,6 +5858,24 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11d0253ea99b03d4986c5237821eaf3a, type: 3}
+--- !u!1 &1836567665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2686027410429060928, guid: 11d0253ea99b03d4986c5237821eaf3a, type: 3}
+  m_PrefabInstance: {fileID: 1548190661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1836567670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836567665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288cd18e292f3e418413ef427914f20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logger: {fileID: 1951207949}
 --- !u!1 &1871705926
 GameObject:
   m_ObjectHideFlags: 0
@@ -6271,6 +6292,7 @@ MonoBehaviour:
   levelManager: {fileID: 1284669480}
   ghostPlayer: {fileID: 1951207948}
   ghostPrefab: {fileID: 7176512830945680314, guid: 115aa1547a6917e4f968ef2a33b7c2ee, type: 3}
+  destroyGhostAtEnd: 1
   logger: {fileID: 1951207949}
 --- !u!1 &2032398788
 GameObject:

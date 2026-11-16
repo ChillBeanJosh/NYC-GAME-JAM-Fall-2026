@@ -45,7 +45,7 @@ public class TransitionManager : MonoBehaviour
             cam.transform.position = cameraPositions.Get(newCameraPosition);
         }
         playerCharacter.SetCurrentPosition(playerCharacter.transform.position + addOffset);
-        logger.testRound = (int)newCameraPosition;
+        //logger.testRound = (int)newCameraPosition;
 
         //Give player invincibility / 
     }
