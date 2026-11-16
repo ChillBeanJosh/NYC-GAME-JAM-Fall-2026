@@ -3095,13 +3095,77 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1363783316}
     - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: rate
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
       propertyPath: Player
       value: 
       objectReference: {fileID: 1363783315}
     - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: Music.Path
+      value: event:/Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: Ambiencee.Path
+      value: event:/Ambience
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: fmodEvent.Path
+      value: event:/Ambience
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 1363783316}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: Music.Guid.Data1
+      value: -404773863
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: Music.Guid.Data2
+      value: 1284709048
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: Music.Guid.Data3
+      value: 964215698
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: Music.Guid.Data4
+      value: -433936431
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: Ambiencee.Guid.Data1
+      value: 1822039839
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: Ambiencee.Guid.Data2
+      value: 1316188935
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: Ambiencee.Guid.Data3
+      value: 1066299564
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: Ambiencee.Guid.Data4
+      value: 2036808406
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: fmodEvent.Guid.Data1
+      value: 1822039839
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: fmodEvent.Guid.Data2
+      value: 1316188935
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: fmodEvent.Guid.Data3
+      value: 1066299564
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926648493585581955, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
+      propertyPath: fmodEvent.Guid.Data4
+      value: 2036808406
+      objectReference: {fileID: 0}
     - target: {fileID: 2300535908951979879, guid: 0db4fc737b4b27b41abba4bec689f467, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
